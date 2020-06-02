@@ -1,0 +1,24 @@
+kek:
+  display: '%group-color%kek'
+  description: 'k e k'
+  applies-to: 'Armor'
+  group: 'SIMPLE'
+  type: 'DEFENSE'
+  applies:
+    - 'ALL_ARMOR'
+  levels:
+    '1':
+      chance: 95
+      cooldown: 5
+      effects:
+        - 'HALF_DAMAGE %victim%'
+    '2':
+      chance: 70
+      cooldown: 5
+      effects:
+        - 'NEGATE_DAMAGE:(10) %victim%'
+    '3':
+      chance: 100
+      cooldown: 10
+      effects:
+        - 'NEGATE_DAMAGE:(25) %victim%'
