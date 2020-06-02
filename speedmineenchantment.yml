@@ -19,4 +19,4 @@ speedmine:
       effects:
         - 'POTION:haste:2:60 %attacker%'
         - 'ADD_HEALTH:5 %attacker%'
-        - 'ADD_DURABILITY_ITEM:25 %attacker%'
+        - 'ADD_DURABILITY_ITEM:-25 %attacker%'
