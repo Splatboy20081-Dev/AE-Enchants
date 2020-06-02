@@ -5,4 +5,4 @@ The AE is AdvancedEnchants, the plugin.
 I am making the enchantments.
 
 # Developer
-CUrrently only me, Splatboy.
+Currently only me, Splatboy.
