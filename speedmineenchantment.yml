@@ -1,0 +1,22 @@
+speedmine:
+  display: '%group-color%Speed Mine'
+  description: 'Makes you mine faster and give you more exp.'
+  applies-to: 'Pickaxes'
+  group: 'UNIQUE'
+  type: 'MINING'
+  applies:
+    - 'ALL_PICKAXE'
+  levels:
+    '1':
+      chance: 80
+      cooldown: 0.5
+      effects:
+        - 'POTION:haste:2:60 %attacker%'
+        - 'ADD_HEALTH:2 %attacker%'
+    '2':
+      chance: 90
+      cooldown: 0.5
+      effects:
+        - 'POTION:haste:2:60 %attacker%'
+        - 'ADD_HEALTH:5 %attacker%'
+        - 'ADD_DURABILITY_ITEM:25 %attacker%'
