@@ -1,0 +1,25 @@
+negate:
+  display: '%group-color%Negate'
+  description: 'Negate armor protection. Very OP.'
+  applies-to: 'Weapons'
+  group: 'ULTIMATE'
+  type: 'ATTACK'
+  applies:
+    - 'ALL_SWORD'
+  levels:
+    '1':
+      chance: 25
+      cooldown: 6
+      effects:
+        - 'IGNORE_ARMOR %victim%'
+    '2':
+      chance: 50
+      cooldown: 5
+      effects:
+        - 'IGNORE_ARMOR %victim%'
+    '3':
+      chance: 80
+      cooldown: 4
+      effects:
+        - 'IGNORE_ARMOR %victim%'
+        - 'IGNORE_ARMOR_DAMAGE %victim%'
