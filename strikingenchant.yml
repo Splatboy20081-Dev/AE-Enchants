@@ -1,0 +1,24 @@
+striking:
+  display: '%group-color%Striking'
+  description: 'Makes a lightning bolt appear over the person's head.'
+  applies-to: 'Weapons'
+  group: 'SIMPLE'
+  type: 'ATTACK'
+  applies:
+    - 'ALL_SWORD'
+  levels:
+    '1':
+      chance: 50
+      cooldown: 2
+      effects:
+        - 'LIGHTNING %victim%'
+    '2':
+      chance: 75
+      cooldown: 2
+      effects:
+        - 'LIGHTNING %victim%'
+    '3':
+      chance: 100
+      cooldown: 5
+      effects:
+        - 'LIGHTNING %victim%'
