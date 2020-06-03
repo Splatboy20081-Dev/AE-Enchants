@@ -1,0 +1,29 @@
+fireballhit:
+  display: '%group-color%FIREBALL HIT'
+  description: 'Hit something and SHOOT WITH FIREBALL!'
+  applies-to: 'Weapons'
+  group: 'UNIQUE'
+  type: 'ATTACK;BOW'
+  applies:
+    - 'ALL_SWORD'
+    - 'ALL_AXE'
+    - 'BOW'
+  levels:
+    '1':
+      chance: 50
+      cooldown: 5
+      effects:
+        - 'FIREBALL %victim%'
+    '2':
+      chance: 75
+      cooldown: 7
+      effects:
+        - 'FIREBALL %victim%'
+        - 'FIREBALL %victim%'
+    '3':
+      chance: 90
+      cooldown: 10
+      effects:
+        - 'FIREBALL %victim%'
+        - 'FIREBALL %victim%'
+        - 'FIREBALL %victim%'
