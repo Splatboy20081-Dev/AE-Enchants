@@ -1,0 +1,24 @@
+invisiblesneak:
+  display: '%group-color%Invisible Sneak'
+  description: 'Sneak to become invisible!'
+  applies-to: 'Armor'
+  group: 'ELITE'
+  type: 'SHIFT'
+  applies:
+    - 'ALL_ARMOR'
+  levels:
+    '1':
+      chance: 100
+      cooldown: 5
+      effects:
+        - 'POTION:invisibility:1:30 %attacker%'
+    '2':
+      chance: 100
+      cooldown: 5
+      effects:
+        - 'POTION:invisibility:2:60 %attacker%'
+    '3':
+      chance: 100
+      cooldown: 5
+      effects:
+        - 'POTION:invisibility:3:120 %attacker%'
